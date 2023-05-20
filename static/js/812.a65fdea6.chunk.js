@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunktweet_app=self.webpackChunktweet_app||[]).push([[812],{1812:function(n,e,p){p.r(e),p.d(e,{default:function(){return c}});var t,u=p(168),r=p(1109).Z.div(t||(t=(0,u.Z)(["\n    padding: 20px 70px 70px 70px;\n    background-color: #EAE7FA;\n"]))),a=p(184),c=function(){return(0,a.jsx)(r,{children:"Home Page"})}}}]);
+//# sourceMappingURL=812.a65fdea6.chunk.js.map
