@@ -3,14 +3,15 @@ import { AppBar } from "../AppBar/AppBar";
 import { Suspense } from "react";
 import { ToastContainer } from 'react-toastify';
 
+
 const Layout = () => {
-    return (
+    return (       
     <div display="grid" gridtemplaterows="300px 1fr">
        <AppBar />
         <Suspense fallback={null}>
             <Outlet />
         </Suspense>
-        <ToastContainer autoClose={3000} theme="colored"/> 
+        <ToastContainer autoClose={3000} theme="colored"/>  
     </div>
     );
 };

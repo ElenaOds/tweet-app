@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import {getTweets} from '../../redux/usersOperations';
 import UserCard from '../UserCard/UserCard';
-import PaginationButton from '../Pagination/PaginationButton';
+import PaginationButton from '../PaginationButton/PaginationButton';
 import { CardsWrapper, Wrapper } from './TweetsList.styled';
 import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css'
@@ -12,17 +12,19 @@ const TweetsList = () => {
   const users = useSelector((state) => state.users.data);
   const [currentItems, setCurrentItems] = useState([]);
   const [itemsPerPage, setItemsPerPage] = useState(3);
+  const [isDisabled, setDisabled] = useState(false);
 
     const handleLoadMore = () => {
       if(users.length === 0) {
         return toast.error(
           'Sorry, no users found');
      }
+
      if(users.length <= currentItems.length) {
+      setDisabled(true);
       return toast.info(
-        'No more users are available');
+        'No more users are available');   
     }
-  
       setItemsPerPage((prevItemsPerPage) => prevItemsPerPage + 3);
     };
 
@@ -47,8 +49,8 @@ const TweetsList = () => {
           );
         })}
       </CardsWrapper>
-      
-      <PaginationButton onLoadMore={handleLoadMore}/>
+    
+      <PaginationButton onLoadMore={handleLoadMore} isDisabled={isDisabled}/> 
     </Wrapper> 
     )
 }

@@ -1,13 +1,13 @@
 
 import { Button } from './PaginationButton.styled';
 
-const PaginationButton = ({onLoadMore}) => {
+const PaginationButton = ({onLoadMore, isDisabled}) => {
     
    
   return (
     <>
       
-      <Button onClick={onLoadMore}>Load More</Button>
+      <Button onClick={onLoadMore} disabled={isDisabled}>Load More</Button>
         
     </> 
   );

@@ -4,7 +4,12 @@ import { ReactComponent as ButtonIcon } from "../../icons/left-arrow.svg";
 
 export const Wrapper = styled.div`
     padding: 20px 70px 70px 70px;
-    background-color: #EAE7FA;
+
+    background: #654ea3; 
+    background: -webkit-linear-gradient(to left, #eaafc8, #654ea3);
+    background: linear-gradient(to left, #eaafc8, #654ea3); 
+
+    height: 100%;
 `;
 
 export const StyledLink = styled(Link)`
