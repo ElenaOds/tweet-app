@@ -1,6 +1,6 @@
-# Single-page application which has two main pages: home page and tweet page.  
-# Home page contains navigation to tweet page. 
-# Tweet page displays users' cards with possibility to follow/unfollow users and allows to set filter by 'all users', 'followed users' and 'unfollowed users'. This page also has navigation to home page
+## Single-page application which has two main pages: home page and tweet page.  
+<p> Home page contains navigation to tweet page. </p>
+<p> Tweet page displays users' cards with possibility to follow/unfollow users and allows to set filter by 'all users', 'followed users' and 'unfollowed users'. This page also has navigation to home page </p>
 
 
 ## Links
