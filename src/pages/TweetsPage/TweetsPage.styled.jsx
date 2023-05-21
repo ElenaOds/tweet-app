@@ -1,6 +1,7 @@
 import styled from '@emotion/styled';
-import { Link } from "react-router-dom";
 import { ReactComponent as ButtonIcon } from "../../icons/left-arrow.svg";
+import { Link } from "react-router-dom";
+
 
 export const Wrapper = styled.div`
     padding: 15px 20px 30px 20px;
@@ -18,9 +19,24 @@ export const Wrapper = styled.div`
     }
 `;
 
+export const UpperWrapper = styled.div`
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+
+    @media screen and (min-width: 768px) {
+        margin-bottom: 20px;
+    }
+    
+    @media screen and (min-width: 1280px) {
+        margin-bottom: 30px;
+    }
+`;
+
+
 export const StyledLink = styled(Link)`
     display: flex;
-    margin-bottom: 15px;
     justify-content: center;
     align-items: center;
     text-decoration: none;
@@ -47,7 +63,6 @@ export const StyledLink = styled(Link)`
     }
 
     @media screen and (min-width: 768px) {
-        margin-bottom: 20px;
         padding: 5px 10px;
         width: 70px;
         height: 18px;
@@ -55,7 +70,6 @@ export const StyledLink = styled(Link)`
     }
     
     @media screen and (min-width: 1280px) {
-        margin-bottom: 20px;
         padding: 7px 14px;
         width: 80px;
         height: 20px;

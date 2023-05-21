@@ -1,9 +1,7 @@
 import { Suspense, lazy } from 'react';
 import { Route, Routes, Navigate } from 'react-router-dom';
-import { ToastContainer } from 'react-toastify';
 import Loader from './components/Loader/Loader';
 import Layout from './components/Layout/Layout';
-
 
 import './App.css';
 
@@ -22,7 +20,6 @@ function App() {
           <Route path="*" element={<Home />} />
           </Route>
         </Routes>
-        <ToastContainer theme={"colored"}/>
      </Suspense>
       </>
   );

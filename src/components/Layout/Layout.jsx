@@ -1,7 +1,6 @@
 import { Outlet } from "react-router-dom";
 import { AppBar } from "../AppBar/AppBar";
 import { Suspense } from "react";
-import { ToastContainer } from 'react-toastify';
 import Loader from '../Loader/Loader';
 
 
@@ -12,7 +11,6 @@ const Layout = () => {
          <Suspense fallback={<Loader />}> 
             <Outlet />
          </Suspense> 
-        <ToastContainer autoClose={3000} theme="colored"/>  
     </div>
     );
 };

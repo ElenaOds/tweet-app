@@ -29,3 +29,7 @@ export const CardsWrapper = styled.div`
     }
 `;
 
+export const Text = styled.h3`
+   color: #fff;
+   font-size: 30px;   
+`;
