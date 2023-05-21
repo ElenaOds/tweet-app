@@ -28,11 +28,7 @@ const usersSlice = createSlice({
         },
         [updateTweets.fulfilled](state, action) {
         state.isLoading = false;
-        state.error = null;
-        // state.data = action.payload.data;
-        
-            
-        
+        state.error = null;   
         const index = state.data.findIndex(
           data => data.id === action.payload.id);
           state.data.splice(index, 1, action.payload);

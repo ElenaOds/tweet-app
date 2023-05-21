@@ -2,9 +2,7 @@ import { Wrapper, Title, Text, Img, StyledNavLink } from './HomePage.styled';
 import social_bird from '../../images/social_bird.png';
 
 const Home = () => {
-    return (
-
-        
+    return (      
  <Wrapper >
   <div>
   <Title>Tweet with your friends</Title>

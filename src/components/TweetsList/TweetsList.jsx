@@ -14,6 +14,10 @@ const TweetsList = () => {
   const [itemsPerPage, setItemsPerPage] = useState(3);
   const [isDisabled, setDisabled] = useState(false);
 
+  useEffect(() => {
+    dispatch(getTweets());
+    }, [dispatch]);
+
     const handleLoadMore = () => {
       if(users.length === 0) {
         return toast.error(
@@ -28,9 +32,7 @@ const TweetsList = () => {
       setItemsPerPage((prevItemsPerPage) => prevItemsPerPage + 3);
     };
 
-    useEffect(() => {
-    dispatch(getTweets());
-    }, [dispatch]);
+   
 
     useEffect(() => {
       setCurrentItems(users.slice(0, itemsPerPage));

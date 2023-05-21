@@ -1,4 +1,3 @@
-// import { useState } from "react";
 import { Wrapper, StyledLogo, BackgroundImage, Ellipse, Rectangle, Img, Text, StyledButton } from './UserCard.styled';
 import { useDispatch } from 'react-redux';
 import {updateTweets } from '../../redux/usersOperations';

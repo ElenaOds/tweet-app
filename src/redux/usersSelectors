@@ -1,3 +1,0 @@
-// const getUsers = state => state.users.data;
-//   const getUsers = ((state) => state.users.data);
-// export default getUsers;
