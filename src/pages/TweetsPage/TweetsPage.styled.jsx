@@ -8,7 +8,7 @@ export const Wrapper = styled.div`
     background: #654ea3; 
     background: -webkit-linear-gradient(to left, #eaafc8, #654ea3);
     background: linear-gradient(to left, #eaafc8, #654ea3); 
-    height: 100%;
+    height: 100vh;
 
     @media screen and (min-width: 768px) {
         padding: 20px 40px 46px 40px;
