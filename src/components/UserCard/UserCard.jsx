@@ -35,7 +35,7 @@ return (
             <Img src={avatar} alt={name}/>
         </Ellipse>               
         <Text>{tweets} TWEETS</Text>
-        <Text>{followers.toLocaleString()} FOLLOWERS</Text>
+        <Text>{followers.toLocaleString('en-US')} FOLLOWERS</Text>
          
         <StyledButton onClick={toggle} followed ={followed}
        >{followed ? 'Following' : 'Follow'}</StyledButton>    
