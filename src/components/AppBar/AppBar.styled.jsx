@@ -74,7 +74,7 @@ export const StyledLink = styled(NavLink)`
 &.active {
     color: #4B2A99;
 }
- &.active:after {
+ &.active::after {
     color: #4B2A99;
     position: absolute;
     display: block;
