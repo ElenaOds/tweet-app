@@ -44,9 +44,9 @@ const TweetsList = () => {
         {visibleUsers.length === 0 ? (<Text>No users are available</Text> 
          ) : (
         visibleUsers.slice(0, currentItems).map(user => {
-          const { id, tweets, followers, avatar, followed } = user;
+          const { id, tweets, followers, avatar, followed, name } = user;
           return (
-            <UserCard key={id} tweets={tweets} followers={followers} followed={followed} avatar={avatar} id={id} user={user}/>
+            <UserCard key={id} tweets={tweets} followers={followers} followed={followed} avatar={avatar} id={id} user={user} name={name}/>
           );
         })
       )}

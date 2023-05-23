@@ -32,7 +32,7 @@ return (
         <BackgroundImage/>
         <Rectangle></Rectangle>
         <Ellipse>
-            <Img src={avatar} alt={'name'}/>
+            <Img src={avatar} alt={name}/>
         </Ellipse>               
         <Text>{tweets} TWEETS</Text>
         <Text>{followers.toLocaleString('en-US')} FOLLOWERS</Text>
