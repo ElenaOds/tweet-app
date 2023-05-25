@@ -4,9 +4,6 @@ import { NavLink } from "react-router-dom";
 export const Wrapper = styled.div`
     display: flex;
     justify-content: space-around;
-    background: -webkit-linear-gradient(to left, #eaafc8, #654ea3);
-    background: linear-gradient(to left, #eaafc8, #654ea3); 
-    height: 100vh;
     padding: 75px 20px 20px 20px;
 
     @media screen and (min-width: 768px) {

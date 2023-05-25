@@ -5,11 +5,6 @@ import { Link } from "react-router-dom";
 
 export const Wrapper = styled.div`
     padding: 15px 20px 30px 20px;
-    background: #654ea3; 
-    background: -webkit-linear-gradient(to left, #eaafc8, #654ea3);
-    background: linear-gradient(to left, #eaafc8, #654ea3); 
-    height: 100vh;
-
     @media screen and (min-width: 768px) {
         padding: 20px 40px 46px 40px;
     }

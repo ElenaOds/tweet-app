@@ -3,9 +3,6 @@ import styled from '@emotion/styled';
 
 
 export const Wrapper = styled.div`
-    background: #654ea3; 
-    background: -webkit-linear-gradient(to left, #eaafc8, #654ea3);
-    background: linear-gradient(to left, #eaafc8, #654ea3); 
     height: 40px;
     padding: 0 20px;
     display: flex;
