@@ -35,7 +35,7 @@ const TweetsList = () => {
     const handleLoadMore = () => {
     setCurrentItems((prevPage) => prevPage + itemsPerPage);
     }
-
+    const isDisabled = visibleUsers.length <= currentItems;
  
 
     return (
@@ -51,7 +51,7 @@ const TweetsList = () => {
         })
       )}
       </CardsWrapper>
-      <PaginationButton onLoadMore={handleLoadMore} /> 
+      <PaginationButton onLoadMore={handleLoadMore} isDisabled={isDisabled}/> 
      
     </Wrapper> 
     )

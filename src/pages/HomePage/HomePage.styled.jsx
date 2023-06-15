@@ -1,19 +1,27 @@
 import styled from '@emotion/styled';
 import { NavLink } from "react-router-dom";
+import social_bird from '../../images/social_bird.png';
 
 export const Wrapper = styled.div`
-    display: flex;
-    justify-content: space-around;
     padding: 75px 20px 20px 20px;
 
     @media screen and (min-width: 768px) {
+        background-image: url(${social_bird});
+        background-repeat: no-repeat;
+        height: 200px;
+        width: auto;
+        background-position: 90% 120%;
         padding: 100px 40px 40px 40px;
     }
     
     @media screen and (min-width: 1280px) {
+        height: 300px;
+        background-position: 90% 60%;
         padding: 150px 50px 50px 50px;
     }
 `;
+
+
 
 export const Title = styled.h1`
     color: #fff;
@@ -63,20 +71,6 @@ export const Text = styled.p`
         letter-spacing: 0.02em;
         margin-bottom: 50px;
     }
-`;
-
-export const Img = styled.img`
-   display: none;
-
-   @media screen and (min-width: 768px) {
-    display: block;
-    height: 200px;
-    width: auto;
-   }
-   
-   @media screen and (min-width: 1280px) {
-    height: 300px;
-   }
 `;
 
 export const StyledNavLink = styled(NavLink)`

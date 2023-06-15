@@ -110,4 +110,6 @@ export const Img = styled.img`
     width: 40px;
     height: 40px;
 }
+
+
 `;

@@ -25,7 +25,6 @@ export const Wrapper = styled.div`
 export const StyledLogo = styled(Logo)`
     margin-top: 10px;
     margin-left: 10px;
-    background: rgba(255, 255, 255, 0.3);
 
     @media screen and (min-width: 768px) {
         margin-top: 20px;
@@ -105,6 +104,7 @@ export const Ellipse = styled.div`
         margin-top: -50px;
         margin-bottom: 26px;
     }
+
 `;
 
 export const Img = styled.img`
@@ -186,4 +186,3 @@ export const StyledButton = styled.button`
         line-height: 22px;
     }
 `;
-
