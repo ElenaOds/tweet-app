@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/tweet-app/static/css/main.346b2d80.css",
-    "main.js": "/tweet-app/static/js/main.a9d6c7ab.js",
-    "static/js/812.a65fdea6.chunk.js": "/tweet-app/static/js/812.a65fdea6.chunk.js",
-    "static/js/458.abbddcf5.chunk.js": "/tweet-app/static/js/458.abbddcf5.chunk.js",
+    "main.css": "/tweet-app/static/css/main.943a4a5a.css",
+    "main.js": "/tweet-app/static/js/main.107c6e4c.js",
+    "static/js/325.a3314466.chunk.js": "/tweet-app/static/js/325.a3314466.chunk.js",
+    "static/js/623.fe87ca60.chunk.js": "/tweet-app/static/js/623.fe87ca60.chunk.js",
     "static/media/picture.svg": "/tweet-app/static/media/picture.23dcbc3cc8ccc9682f24b4acffb5efb2.svg",
+    "static/media/social_bird.png": "/tweet-app/static/media/social_bird.99f9b29104be7ebc429f.png",
     "static/media/logo.png": "/tweet-app/static/media/logo.49bc30cc453ecc60a8a7.png",
-    "static/media/logo.svg": "/tweet-app/static/media/logo.eb74a9cfcc8c2946c8beb2961898c04b.svg",
+    "static/media/logo.svg": "/tweet-app/static/media/logo.353d41f9bc676ef5b4d55ffb824e7847.svg",
     "index.html": "/tweet-app/index.html",
     "static/media/left-arrow.svg": "/tweet-app/static/media/left-arrow.b5e60e2c3f325f6021532fba9c0ceb03.svg",
-    "main.346b2d80.css.map": "/tweet-app/static/css/main.346b2d80.css.map",
-    "main.a9d6c7ab.js.map": "/tweet-app/static/js/main.a9d6c7ab.js.map",
-    "812.a65fdea6.chunk.js.map": "/tweet-app/static/js/812.a65fdea6.chunk.js.map",
-    "458.abbddcf5.chunk.js.map": "/tweet-app/static/js/458.abbddcf5.chunk.js.map"
+    "main.943a4a5a.css.map": "/tweet-app/static/css/main.943a4a5a.css.map",
+    "main.107c6e4c.js.map": "/tweet-app/static/js/main.107c6e4c.js.map",
+    "325.a3314466.chunk.js.map": "/tweet-app/static/js/325.a3314466.chunk.js.map",
+    "623.fe87ca60.chunk.js.map": "/tweet-app/static/js/623.fe87ca60.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.346b2d80.css",
-    "static/js/main.a9d6c7ab.js"
+    "static/css/main.943a4a5a.css",
+    "static/js/main.107c6e4c.js"
   ]
 }
