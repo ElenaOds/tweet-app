@@ -48,8 +48,10 @@ export const StyledLink = styled(Link)`
     color: #373737;
     cursor: pointer; 
     fill: #373737;
+    outline: none;
 
-    &:hover  {
+    &:hover,
+    &:focus  {
         color: #fff;
         fill: #fff; 
         background-color: #471CA9;  

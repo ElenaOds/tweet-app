@@ -4,12 +4,13 @@ import { StyledSelect } from './Filter.syled';
 
 const Filter = () => {
   const dispatch = useDispatch();
-  
+
   
   const handleFilterChange = (e) => {
     dispatch(setStatusFilter(e.target.value));
   }
 
+ 
   return (
         <div>
             <StyledSelect name="isSelected" 

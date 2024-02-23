@@ -25,6 +25,11 @@ const UserCard = ({  id, tweets, avatar, name, followers, followed }) => {
     return dispatch(updateTweets(updatedUser));    
 };
 
+const handleClick = (e) => {
+    toggle();
+    e.target.blur();
+}
+
 
 return (
     <Wrapper>
@@ -36,8 +41,7 @@ return (
         </Ellipse>               
         <Text>{tweets} TWEETS</Text>
         <Text>{followers.toLocaleString('en-US')} FOLLOWERS</Text>
-         
-        <StyledButton onClick={toggle} followed ={followed}
+        <StyledButton onClick={handleClick} followed ={followed}
        >{followed ? 'Following' : 'Follow'}</StyledButton>    
     </Wrapper>
    

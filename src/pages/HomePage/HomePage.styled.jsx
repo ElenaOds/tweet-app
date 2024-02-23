@@ -85,9 +85,11 @@ export const StyledNavLink = styled(NavLink)`
    border: 2px solid #fff;
    border-radius: 12px;
    padding: 4px 10px;
+   outline: none;
 
-    &:hover {
-        border: 4px solid #fff;;
+    &:hover,
+    &:focus {
+        box-shadow: 0px 0px 2px 2px #fff;
     }
 
     @media screen and (min-width: 768px) {

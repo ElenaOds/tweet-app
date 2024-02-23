@@ -67,10 +67,17 @@ export const StyledLink = styled(NavLink)`
     line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration: none;
+    outline: none;  
 
-&.active {
-    color: #4B2A99;
-}
+    &:hover,
+    &:focus {
+        text-shadow: 0.5px 0.5px 1px #fff, 0 0 1em #4B2A99;
+    }
+
+    &.active {
+        color: #4B2A99;
+    }
+
  &.active::after {
     color: #4B2A99;
     position: absolute;
@@ -110,6 +117,4 @@ export const Img = styled.img`
     width: 40px;
     height: 40px;
 }
-
-
 `;

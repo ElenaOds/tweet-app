@@ -156,17 +156,19 @@ export const StyledButton = styled.button`
     width: 110px;
     height: 25px;
     background: ${props => (props.followed ? "#5CD3A8" : "#EBD8FF")};
-    box-shadow: 0px 3.43693px 3.43693px rgba(0, 0, 0, 0.25);
-    border-radius: 10.3108px;
+    border-radius: 10px;
     font-weight: 600;
     font-size: 12px;
     line-height: 14px;
     text-transform: uppercase;
     color: #373737;
     cursor: pointer;
+    border: 1px solid transparent;
+    outline: none;
 
-    &:hover {
-        border: 2px solid transparent;
+    &:hover,
+    &:focus {
+        box-shadow: 0px 0px 3px 3px #fff;
     }
 
     @media screen and (min-width: 768px) {

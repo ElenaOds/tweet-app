@@ -15,8 +15,9 @@
 	<li>JavaScript</li>
 	<li>Axios</li>
 	<li>React</li>
-	<li>ReduxToolkit</li>
-    <li>ReduxPersist</li>
+	<li>Redux Toolkit</li>
+    <li>Redux Persist</li>
+	<li>React Toastify</li>
 	<li>Spinner</li>
     <li>MockApi</li>
     <li>Emotion</li>

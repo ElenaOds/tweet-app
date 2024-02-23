@@ -13,6 +13,7 @@ export const StyledSelect = styled.select`
     font-weight: 600;
     font-size: 10px;
     text-transform: uppercase;
+    outline: none;
   
   @media screen and (min-width: 768px) {
     padding: 5px 10px;
@@ -26,5 +27,9 @@ export const StyledSelect = styled.select`
     width: 200px;
     height: 40px;
     font-size: 14px;
+}
+    &:hover,
+    &:focus {
+      box-shadow: 0px 0px 2px 2px #fff;
 }
 `;
